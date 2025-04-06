@@ -12,6 +12,9 @@ const clickButton = document.getElementById("click-btn");
 const nameSection = document.getElementById("name-section");
 
 submitNameButton.addEventListener("click", function() {
+  // Log to check if the button click is detected
+  console.log("Submit button clicked!");
+
   // Get player's name from input field
   playerName = playerNameInput.value.trim();
 
