@@ -48,4 +48,4 @@ function endGame() {
   }
 }
 
-setTimeout(endGame, 30000); // Ends in 30 seconds
+setTimeout(endGame, 15000); // Ends in 15 seconds
