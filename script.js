@@ -42,9 +42,9 @@ function endGame() {
   if (score > savedHighScore) {
     localStorage.setItem("highScore", score);
     localStorage.setItem("highScorer", playerName);
-    highScoreElement.textContent = `New High Score: ${playerName} Score: ${score}`;
+    highScoreElement.textContent = `New High Score: ${playerName} scored ${score}`;
   } else {
-    highScoreElement.textContent = `High Score: ${savedHighScorer} - ${savedHighScore}`;
+    highScoreElement.textContent = `High Score: ${savedHighScorer} scored ${savedHighScore}`;
   }
 }
 
