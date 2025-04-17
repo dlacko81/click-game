@@ -35,8 +35,8 @@ function endGame() {
   finalScoreElement.textContent = score;
 
   // Check current high score from localStorage
-  const savedHighScore = localStorage.getItem("highScore") || 0;
-  const savedHighScorer = localStorage.getItem("highScorer") || "No one yet";
+  const savedHighScore = localStorage.getItem("highScore") || 87;
+  const savedHighScorer = localStorage.getItem("highScorer") || "No one can beat Dani";
 
   // If current score is higher, update localStorage
   if (score > savedHighScore) {
